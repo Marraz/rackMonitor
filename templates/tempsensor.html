@@ -1,0 +1,9 @@
+# HELP temperature Temperature inside of the rack
+# TYPE temperature gauge
+temperature{racksensor="raspberrypi"} {{ temperature }}
+# HELP pressure Pressure inside the rack
+# TYPE pressure gauge
+pressure{racksensor="raspberrypi"} {{ pressure }}
+# HELP humidity Humidity inside the rack
+# TYPE humidity gauge
+humidity{racksensor="raspberrypi"} {{ humidity }}
