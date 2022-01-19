@@ -1,0 +1,3 @@
+[submodule "apcupsd_exporter"]
+	path = apcupsd_exporter
+	url = https://github.com/mdlayher/apcupsd_exporter.git
